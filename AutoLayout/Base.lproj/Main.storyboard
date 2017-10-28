@@ -18,40 +18,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAI-7Y-i8Q">
-                                <rect key="frame" x="147.5" y="622" width="80" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="Ca0-Xq-Lce" eventType="touchUpInside" id="T6a-HW-Xgg"/>
-                                </connections>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7K-Gk-g65">
+                                <rect key="frame" x="218.5" y="318.5" width="46" height="30"/>
+                                <state key="normal" title="彼得潘"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Oh-4V-YRm">
-                                <rect key="frame" x="147.5" y="552" width="80" height="30"/>
-                                <color key="backgroundColor" red="0.61013919019999996" green="1" blue="0.32168226290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="lj8-l0-WVn"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="Ca0-Xq-Lce" eventType="touchUpInside" id="4Ez-5P-IFP"/>
-                                </connections>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g30-qj-ywm">
+                                <rect key="frame" x="116.5" y="318.5" width="92" height="30"/>
+                                <state key="normal" title="永遠的小王子"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="TAI-7Y-i8Q" firstAttribute="width" secondItem="0Oh-4V-YRm" secondAttribute="width" id="8i8-ma-7Ec"/>
-                            <constraint firstItem="NE6-eK-wt2" firstAttribute="bottom" secondItem="TAI-7Y-i8Q" secondAttribute="bottom" constant="15" id="SHC-4j-EAS"/>
-                            <constraint firstItem="TAI-7Y-i8Q" firstAttribute="centerX" secondItem="InL-4Y-Un0" secondAttribute="centerX" id="fNW-pK-faK"/>
-                            <constraint firstItem="TAI-7Y-i8Q" firstAttribute="top" secondItem="0Oh-4V-YRm" secondAttribute="bottom" constant="40" id="ywJ-ac-pqV"/>
-                            <constraint firstItem="TAI-7Y-i8Q" firstAttribute="centerX" secondItem="0Oh-4V-YRm" secondAttribute="centerX" id="zE5-4p-3st"/>
+                            <constraint firstItem="t7K-Gk-g65" firstAttribute="leading" secondItem="g30-qj-ywm" secondAttribute="trailing" constant="10" id="1bf-Xw-Vls"/>
+                            <constraint firstItem="t7K-Gk-g65" firstAttribute="centerY" secondItem="InL-4Y-Un0" secondAttribute="centerY" id="KSB-7S-BcM"/>
+                            <constraint firstItem="g30-qj-ywm" firstAttribute="centerY" secondItem="InL-4Y-Un0" secondAttribute="centerY" id="OHT-cf-VMd"/>
+                            <constraint firstItem="g30-qj-ywm" firstAttribute="centerX" secondItem="InL-4Y-Un0" secondAttribute="centerX" constant="-25" id="Zht-G3-yiW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NE6-eK-wt2"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HcT-pO-hsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="762" y="112"/>
+            <point key="canvasLocation" x="761.25" y="111.25"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ndF-ti-GxN">
