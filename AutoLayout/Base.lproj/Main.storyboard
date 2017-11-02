@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DRJ-Ty-EX6">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,15 +15,15 @@
             <objects>
                 <viewController id="Ca0-Xq-Lce" customClass="ViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="InL-4Y-Un0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7K-Gk-g65">
-                                <rect key="frame" x="218.5" y="318.5" width="46" height="30"/>
+                                <rect key="frame" x="191" y="269" width="46" height="30"/>
                                 <state key="normal" title="彼得潘"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g30-qj-ywm">
-                                <rect key="frame" x="116.5" y="318.5" width="92" height="30"/>
+                                <rect key="frame" x="89" y="269" width="92" height="30"/>
                                 <state key="normal" title="永遠的小王子"/>
                             </button>
                         </subviews>
@@ -46,53 +46,145 @@
             <objects>
                 <viewController id="DRJ-Ty-EX6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Epi-0r-lgI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="p2" translatesAutoresizingMaskIntoConstraints="NO" id="Bjs-p2-P1O">
-                                <rect key="frame" x="250" y="228.5" width="105" height="210"/>
+                                <rect key="frame" x="213.5" y="197.5" width="86.5" height="173"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Bjs-p2-P1O" secondAttribute="height" multiplier="1:2" id="Pvm-Q8-xDm"/>
                                 </constraints>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="Pvm-Q8-xDm"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p3" translatesAutoresizingMaskIntoConstraints="NO" id="Q91-D2-M6X">
-                                <rect key="frame" x="20" y="228.5" width="105" height="210"/>
+                                <rect key="frame" x="20" y="197.5" width="86.5" height="173"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Q91-D2-M6X" secondAttribute="height" multiplier="1:2" id="xat-Us-aDc"/>
                                 </constraints>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="xat-Us-aDc"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p1" translatesAutoresizingMaskIntoConstraints="NO" id="o7B-WU-Buy">
-                                <rect key="frame" x="135" y="228.5" width="105" height="210"/>
+                                <rect key="frame" x="116.5" y="197.5" width="87" height="173"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="o7B-WU-Buy" secondAttribute="height" multiplier="1:2" id="lBe-zH-0RX"/>
                                 </constraints>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="lBe-zH-0RX"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p4" translatesAutoresizingMaskIntoConstraints="NO" id="gPG-4W-mUN">
+                                <rect key="frame" x="228.5" y="160" width="111" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="VY1-qW-3MW"/>
+                                    <constraint firstAttribute="height" constant="150" id="rks-eE-k8w"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="VY1-qW-3MW"/>
+                                        <exclude reference="rks-eE-k8w"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="VY1-qW-3MW"/>
+                                        <include reference="rks-eE-k8w"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="o7B-WU-Buy" firstAttribute="top" secondItem="Bjs-p2-P1O" secondAttribute="top" id="06t-GP-dNl"/>
+                            <constraint firstItem="Bjs-p2-P1O" firstAttribute="height" secondItem="o7B-WU-Buy" secondAttribute="height" id="2Xu-WE-5JL"/>
+                            <constraint firstItem="o7B-WU-Buy" firstAttribute="width" secondItem="Q91-D2-M6X" secondAttribute="width" id="7XF-KX-Dnb"/>
+                            <constraint firstItem="Q91-D2-M6X" firstAttribute="width" secondItem="o7B-WU-Buy" secondAttribute="width" id="EFl-ni-9zs"/>
                             <constraint firstItem="Q91-D2-M6X" firstAttribute="centerY" secondItem="Epi-0r-lgI" secondAttribute="centerY" id="IJk-5G-l88"/>
+                            <constraint firstItem="o7B-WU-Buy" firstAttribute="top" secondItem="Epi-0r-lgI" secondAttribute="top" constant="10" id="IO7-iw-3gz"/>
+                            <constraint firstItem="Bjs-p2-P1O" firstAttribute="width" secondItem="Q91-D2-M6X" secondAttribute="width" id="Jfm-2f-z4A"/>
+                            <constraint firstItem="Bjs-p2-P1O" firstAttribute="width" secondItem="o7B-WU-Buy" secondAttribute="width" id="LSR-w2-uyG"/>
+                            <constraint firstItem="gPG-4W-mUN" firstAttribute="bottom" secondItem="o7B-WU-Buy" secondAttribute="bottom" id="LUb-6G-TDH"/>
+                            <constraint firstItem="gPG-4W-mUN" firstAttribute="centerX" secondItem="Epi-0r-lgI" secondAttribute="centerX" id="QcK-9a-abd"/>
                             <constraint firstItem="o7B-WU-Buy" firstAttribute="bottom" secondItem="Bjs-p2-P1O" secondAttribute="bottom" id="S9W-xk-IPh"/>
                             <constraint firstItem="Bjs-p2-P1O" firstAttribute="leading" secondItem="o7B-WU-Buy" secondAttribute="trailing" constant="10" id="WeI-lv-0iS"/>
                             <constraint firstItem="MK4-ov-ADp" firstAttribute="trailing" secondItem="Bjs-p2-P1O" secondAttribute="trailing" constant="20" id="aOF-tu-aPD"/>
+                            <constraint firstItem="MK4-ov-ADp" firstAttribute="bottom" secondItem="Q91-D2-M6X" secondAttribute="bottom" constant="10" id="ayZ-7N-oBf"/>
+                            <constraint firstItem="Q91-D2-M6X" firstAttribute="height" secondItem="o7B-WU-Buy" secondAttribute="height" id="fBC-UQ-8wm"/>
                             <constraint firstItem="o7B-WU-Buy" firstAttribute="centerY" secondItem="Epi-0r-lgI" secondAttribute="centerY" id="fgw-kM-gZI"/>
                             <constraint firstItem="Q91-D2-M6X" firstAttribute="leading" secondItem="MK4-ov-ADp" secondAttribute="leading" constant="20" id="hij-Zu-2Zp"/>
                             <constraint firstItem="o7B-WU-Buy" firstAttribute="leading" secondItem="Q91-D2-M6X" secondAttribute="trailing" constant="10" id="mVA-ia-XH2"/>
                             <constraint firstItem="Q91-D2-M6X" firstAttribute="top" secondItem="o7B-WU-Buy" secondAttribute="top" id="ncR-wO-kU2"/>
                             <constraint firstItem="Bjs-p2-P1O" firstAttribute="centerY" secondItem="Epi-0r-lgI" secondAttribute="centerY" id="prQ-Pk-Y4C"/>
+                            <constraint firstAttribute="bottom" secondItem="o7B-WU-Buy" secondAttribute="bottom" constant="10" id="vBg-xg-iKn"/>
                             <constraint firstItem="Q91-D2-M6X" firstAttribute="bottom" secondItem="o7B-WU-Buy" secondAttribute="bottom" id="vVQ-aS-YkK"/>
+                            <constraint firstItem="Q91-D2-M6X" firstAttribute="top" secondItem="MK4-ov-ADp" secondAttribute="top" constant="10" id="wEy-n8-PMR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MK4-ov-ADp"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="gPG-4W-mUN"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="LUb-6G-TDH"/>
+                                <exclude reference="QcK-9a-abd"/>
+                                <exclude reference="ayZ-7N-oBf"/>
+                                <exclude reference="EFl-ni-9zs"/>
+                                <exclude reference="fBC-UQ-8wm"/>
+                                <exclude reference="wEy-n8-PMR"/>
+                                <exclude reference="7XF-KX-Dnb"/>
+                                <exclude reference="IO7-iw-3gz"/>
+                                <exclude reference="vBg-xg-iKn"/>
+                                <exclude reference="2Xu-WE-5JL"/>
+                                <exclude reference="Jfm-2f-z4A"/>
+                                <exclude reference="LSR-w2-uyG"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="gPG-4W-mUN"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="LUb-6G-TDH"/>
+                                <include reference="QcK-9a-abd"/>
+                                <include reference="ayZ-7N-oBf"/>
+                                <exclude reference="IJk-5G-l88"/>
+                                <include reference="wEy-n8-PMR"/>
+                                <include reference="7XF-KX-Dnb"/>
+                                <exclude reference="fgw-kM-gZI"/>
+                                <include reference="Jfm-2f-z4A"/>
+                                <exclude reference="prQ-Pk-Y4C"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="EFl-ni-9zs"/>
+                                <include reference="fBC-UQ-8wm"/>
+                                <include reference="IO7-iw-3gz"/>
+                                <include reference="vBg-xg-iKn"/>
+                                <include reference="2Xu-WE-5JL"/>
+                                <include reference="LSR-w2-uyG"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dFF-XW-2eR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1453.5999999999999" y="137.18140929535232"/>
+            <point key="canvasLocation" x="1453.2233883058473" y="136.80000000000001"/>
         </scene>
     </scenes>
     <resources>
         <image name="p1" width="640" height="960"/>
         <image name="p2" width="736" height="1104"/>
         <image name="p3" width="800" height="1200"/>
+        <image name="p4" width="1536" height="2048"/>
     </resources>
 </document>
